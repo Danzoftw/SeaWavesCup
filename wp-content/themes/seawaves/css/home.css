@@ -1,0 +1,198 @@
+.home-outer-wrapper section.home-banner-section .click-for-magic {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@media (min-width: 1440px) {
+  .home-outer-wrapper section.home-banner-section .click-for-magic {
+    top: 50px;
+  }
+}
+.home-outer-wrapper section.home-banner-section .click-for-magic p {
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+@media (min-width: 576px) {
+  .home-outer-wrapper section.home-banner-section .click-for-magic p {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .home-outer-wrapper section.home-banner-section .click-for-magic p {
+    font-size: 2.3rem;
+    line-height: 2.2rem;
+  }
+}
+@media (min-width: 992px) {
+  .home-outer-wrapper section.home-banner-section .click-for-magic p {
+    font-size: 3.3rem;
+    line-height: 3.2rem;
+  }
+}
+@media (min-width: 1440px) {
+  .home-outer-wrapper section.home-banner-section .click-for-magic p {
+    font-size: 2.3rem;
+    line-height: 3rem;
+  }
+}
+.home-outer-wrapper section.home-banner-section .video-cover {
+  width: 100vw;
+  object-fit: cover;
+  height: 35vh;
+}
+@media (min-width: 375px) {
+  .home-outer-wrapper section.home-banner-section .video-cover {
+    height: 30vh;
+  }
+}
+@media (min-width: 425px) {
+  .home-outer-wrapper section.home-banner-section .video-cover {
+    height: 40vh;
+  }
+}
+@media (min-width: 576px) {
+  .home-outer-wrapper section.home-banner-section .video-cover {
+    height: 55vh;
+  }
+}
+@media (min-width: 992px) {
+  .home-outer-wrapper section.home-banner-section .video-cover {
+    height: 85vh;
+  }
+}
+.home-outer-wrapper section.home-banner-section .video-cover video {
+  height: 100%;
+  object-fit: cover;
+}
+.home-outer-wrapper section.home-banner-section .video-cover .dota-heroes {
+  top: -100px;
+}
+@media (min-width: 768px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes {
+    top: -130px;
+  }
+}
+@media (min-width: 992px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes {
+    top: -180px;
+  }
+}
+@media (min-width: 1024px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes {
+    top: -185px;
+  }
+}
+@media (min-width: 1200px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes {
+    top: -200px;
+  }
+}
+@media (min-width: 1440px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes {
+    top: -260px;
+  }
+}
+.home-outer-wrapper section.home-banner-section .video-cover .dota-heroes .image img {
+  cursor: pointer;
+  max-width: 150px;
+  height: 60px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes .image img {
+    height: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes .image img {
+    height: 150px;
+  }
+}
+@media (min-width: 1024px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes .image img {
+    height: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes .image img {
+    height: 180px;
+  }
+}
+@media (min-width: 1440px) {
+  .home-outer-wrapper section.home-banner-section .video-cover .dota-heroes .image img {
+    height: 230px;
+    max-width: 240px;
+  }
+}
+.home-outer-wrapper section.teams .image-inner {
+  -webkit-animation: spin 3s linear infinite;
+  /* Safari */
+  animation: spin 3s linear infinite;
+  max-height: 200px;
+  height: 200px;
+}
+.home-outer-wrapper section.teams .image-inner img {
+  max-width: 150px;
+}
+.home-outer-wrapper section.tournaments .tourney-tabs .active {
+  border-bottom: 1.5px solid #693d6b;
+}
+@media (min-width: 576px) {
+  @keyframes arcwarden {
+    0% {
+      -webkit-transform: scale(0.4) translateY(-50%) rotate(10deg);
+    }
+    50% {
+      -webkit-transform: scale(0.7) translateY(-50%) rotate(1deg);
+    }
+    100% {
+      -webkit-transform: scale(0.4) translateY(-50%) rotate(10deg);
+    }
+  }
+}
+@-webkit-keyframes antimage {
+  0% {
+    -webkit-transform: scale(0.8) translateY(-50%) rotate(340deg);
+  }
+  50% {
+    -webkit-transform: scale(1) translateY(-50%) rotate(350deg);
+  }
+  100% {
+    -webkit-transform: scale(0.8) translateY(-50%) rotate(340deg);
+  }
+}
+@keyframes antimage {
+  0% {
+    -webkit-transform: scale(0.9) translateY(-50%) rotate(340deg);
+  }
+  50% {
+    -webkit-transform: scale(1) translateY(-50%) rotate(350deg);
+  }
+  100% {
+    -webkit-transform: scale(0.9) translateY(-50%) rotate(340deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+  }
+}

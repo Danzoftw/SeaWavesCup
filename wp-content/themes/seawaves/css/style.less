@@ -1,0 +1,251 @@
+@import "font.less";
+@import "variables.less";
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Octopus';
+    font-size: 16px;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.before-circle{
+    &:before{
+        content: '';
+        position: absolute;
+        padding: 4px;
+        background-color: black;
+        top: 50%;
+        border-radius: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+    }
+}
+.octopus-wide{
+    font-family: 'Octopus_Wide';
+}
+.object-fit-contain{
+    object-fit: contain;
+}
+.object-fit-cover{
+    object-fit: cover;
+}
+.z-index-1{
+    z-index: 1;
+}
+.z-index-2{
+    z-index: 2;
+}
+.z-index-3{
+    z-index: 3;
+}
+.visibility-hidden{
+    visibility: hidden;
+}
+.top-50p{
+    top: 50%;
+}
+.bottom-50p{
+    bottom: 50%;
+}
+.left-50p{
+    left: 50%;
+}
+.right-50p{
+    right: 50%;
+}
+.top{
+    top: 0 !important;
+  }
+  .left{
+    left: 0 !important;
+  }
+  .bottom{
+    bottom: 0 !important;
+  }
+  .right{
+    right: 0 !important;
+  }
+  .left-transform {
+    transform: translateX(-50%);
+  }
+.center-transform{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.common-transition {
+  transition: .3s all ease;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.outline-none{
+    outline: none !important;
+}
+.display-show{
+    display: block;
+}
+.display-hide{
+    display: none;
+}
+.common-bg{
+    background-image: url('../images/bg-texture.png');
+    z-index: -10;
+    top: 0;
+}
+.footer-bg{
+    background-image: url('../images/footerbg.png');
+    z-index: -10;
+    top: 0;
+}
+//Overlays
+.light-overlay{
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .dark-overlay{
+    background-color: rgb(105 20 157 / 12%);
+  }
+//Custom after gray border
+.after-border{
+    &:after{
+        content: '';
+        position: absolute;
+        border-bottom: 1px solid #505050;
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+        @media(min-width: 992px){
+            bottom: -10px;
+        }
+    }
+}
+//Custom after white border
+.after-white-border{
+    &:after{
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    }
+}
+//Box shadow
+.box-shadow-1{
+  box-shadow: 2px 5px 25px -8px black;
+} 
+.white-space-nowrap{
+  white-space: nowrap;
+}
+//Font-sizes
+.font-weight-700 {
+  font-weight: 700;
+}
+.title-font{
+    font-size: 1.7rem;
+    line-height: 2rem;
+    @media(min-width: 575px){
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+    @media(min-width: 768px){
+      font-size: 2.3rem;
+    }
+    @media(min-width: 992px){
+      line-height: 2.4rem;
+      font-size: 2.2rem;
+    }
+    @media(min-width: 1440px){
+      font-size: 3rem;
+      line-height: 3.5rem;
+    }
+}
+.font-12px{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    @media(min-width: 575px){
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+    @media(min-width: 768px){
+      font-size: 0.75rem;
+    }
+    @media(min-width: 992px){
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+    @media(min-width: 1440px){
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+}
+.font-14px{
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+    @media(min-width: 575px){
+      font-size: 0.875rem;
+      line-height: 1.2rem;
+    }
+    @media(min-width: 768px){
+      font-size: 0.875rem;
+    }
+    @media(min-width: 992px){
+      font-size: 0.875rem;
+      line-height: 1.2rem;
+    }
+    @media(min-width: 1440px){
+      font-size: 0.875rem;
+      line-height: 1.2rem;
+    }
+}
+.font-26px{
+    font-size: 1.625rem;
+    line-height: 2rem;
+    @media(min-width: 575px){
+      font-size: 0.875rem;
+      line-height: 1rem;
+    }
+    @media(min-width: 768px){
+      font-size: 0.875rem;
+    }
+    @media(min-width: 992px){
+      font-size: 1.625rem;
+      line-height: 2rem;
+    }
+    @media(min-width: 1440px){
+      font-size: 1.625rem;
+      line-height: 2rem;
+    }
+}
+.font-80px{
+    font-size: 4rem;
+    line-height: 5rem;
+    @media(min-width: 575px){
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+
+    @media(min-width: 992px){
+      font-size: 5rem;
+      line-height: 5.5rem;
+    }
+}
+@import "home.less";
+@import "header.less";
+@import "footer.less";
+@import "teams.less";
+@import "sponsors.less";
+@import "contact-us.less";
+@import "streams.less";
+@import "about.less";
+@import "single-teams.less";
+@import "single-tournaments.less";
+@import "single-news.less";

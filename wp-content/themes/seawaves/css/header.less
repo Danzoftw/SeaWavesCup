@@ -1,0 +1,88 @@
+.header{
+    background: #000;
+    .menu-section{
+        li{
+            margin-right: 1rem;
+            @media(min-width: 992px) {
+                margin-right: 3rem;
+            }
+        }
+    }
+    .navbar-toggler {
+        outline: 0;
+        border: 0;
+        box-shadow: none;
+    }
+    .navbar-collapse {
+        a {
+            color: black;
+            font-weight: 500;
+            font-size: 1.3rem;
+            line-height: 2rem;
+            border: none;
+            outline: none;
+            position: relative;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -o-transition: .4s;
+            transition: .4s;
+            text-transform: capitalize;
+            &:before {
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 14px;
+                left: 10px;
+                transform: rotate(-45deg);
+                background-color: #67eaff;
+                bottom: -10px;
+                opacity: 0;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -o-transition: .4s;
+                transition: .4s;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 14px;
+                left: 40px;
+                transform: rotate(-45deg);
+                background-color: #67eaff;
+                bottom: 26px;
+                opacity: 0;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -o-transition: .4s;
+                transition: .4s;
+            }
+            &:hover {
+                color: #67eaff;
+                &:before {
+                   opacity: 1;
+                }
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .site-logo {
+        .image {
+            img {
+                max-width: 200px;
+            }
+        }
+    }
+    .to-top {
+        right: 10px;
+        bottom: 10%;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+        @media(min-width: 576px) {
+
+        }
+    }
+}

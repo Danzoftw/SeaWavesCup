@@ -1,0 +1,44 @@
+section.about .image img {
+  height: 400px;
+  object-fit: cover;
+}
+section.about .about-swc article {
+  border-bottom: 1px solid #000000;
+}
+section.about .about-swc article .swc-social-media p {
+  background-color: #67eaff;
+  box-shadow: 0px 0px 7px 0px black;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+section.about .about-swc article .swc-social-media p:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px 0px #67eaff;
+}
+section.about .about-swc-info .info p:after {
+  content: '';
+  position: absolute;
+  border-right: 1px solid black;
+  height: 100%;
+  top: 0;
+  right: -10px;
+}
+@media (min-width: 768px) {
+  section.about .about-swc-info .minor-details li {
+    margin-right: 40px;
+  }
+}
+@media (min-width: 768px) {
+  section.about .about-swc-info .minor-details li:after {
+    content: '';
+    position: absolute;
+    border-right: 1px solid black;
+    height: 100%;
+    top: 0;
+    right: -15px;
+  }
+}
+section.about .about-swc-info .minor-details li:last-child:after {
+  content: '';
+  border: unset;
+}

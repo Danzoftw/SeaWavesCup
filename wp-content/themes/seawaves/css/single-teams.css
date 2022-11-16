@@ -1,0 +1,13 @@
+div.team-details .team-logo img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+div.team-details .team-players .image {
+  max-width: 50px;
+}
+@media (min-width: 576px) {
+  div.team-details .team-players .image {
+    max-width: 100px;
+  }
+}

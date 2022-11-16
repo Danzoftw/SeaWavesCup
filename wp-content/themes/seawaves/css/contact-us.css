@@ -1,0 +1,21 @@
+section.contact-us .contact-info h3 {
+  font-family: 'Octopus_Wide';
+}
+section.contact-us input[type=text],
+section.contact-us input[type=email],
+section.contact-us textarea {
+  border: 0;
+  background: transparent;
+  outline: none;
+  color: #66afe9;
+  box-shadow: unset;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  padding: 5px;
+  cursor: grab;
+}
+section.contact-us button {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 0 !important;
+}

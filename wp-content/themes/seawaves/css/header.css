@@ -1,0 +1,79 @@
+.header {
+  background: #000;
+}
+.header .menu-section li {
+  margin-right: 1rem;
+}
+@media (min-width: 992px) {
+  .header .menu-section li {
+    margin-right: 3rem;
+  }
+}
+.header .navbar-toggler {
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+}
+.header .navbar-collapse a {
+  color: black;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  border: none;
+  outline: none;
+  position: relative;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  text-transform: capitalize;
+}
+.header .navbar-collapse a:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 14px;
+  left: 10px;
+  transform: rotate(-45deg);
+  background-color: #67eaff;
+  bottom: -10px;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.header .navbar-collapse a:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 14px;
+  left: 40px;
+  transform: rotate(-45deg);
+  background-color: #67eaff;
+  bottom: 26px;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.header .navbar-collapse a:hover {
+  color: #67eaff;
+}
+.header .navbar-collapse a:hover:before {
+  opacity: 1;
+}
+.header .navbar-collapse a:hover:after {
+  opacity: 1;
+}
+.header .site-logo .image img {
+  max-width: 200px;
+}
+.header .to-top {
+  right: 10px;
+  bottom: 10%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}

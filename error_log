@@ -1,0 +1,32 @@
+[14-Jan-2022 12:45:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_contents() in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php:12
+Stack trace:
+#0 /home/seawavescup/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/seawavescup/public_html/wp-blog-header.php(19): require_once('/home/seawavesc...')
+#2 /home/seawavescup/public_html/index.php(17): require('/home/seawavesc...')
+#3 {main}
+  thrown in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php on line 12
+[14-Jan-2022 12:45:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_contents() in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php:12
+Stack trace:
+#0 /home/seawavescup/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/seawavescup/public_html/wp-blog-header.php(19): require_once('/home/seawavesc...')
+#2 /home/seawavescup/public_html/index.php(17): require('/home/seawavesc...')
+#3 {main}
+  thrown in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php on line 12
+[14-Jan-2022 12:46:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_contents() in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php:12
+Stack trace:
+#0 /home/seawavescup/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/seawavescup/public_html/wp-blog-header.php(19): require_once('/home/seawavesc...')
+#2 /home/seawavescup/public_html/index.php(17): require('/home/seawavesc...')
+#3 {main}
+  thrown in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php on line 12
+[14-Jan-2022 12:46:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_contents() in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php:12
+Stack trace:
+#0 /home/seawavescup/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/seawavescup/public_html/wp-blog-header.php(19): require_once('/home/seawavesc...')
+#2 /home/seawavescup/public_html/index.php(17): require('/home/seawavesc...')
+#3 {main}
+  thrown in /home/seawavescup/public_html/wp-content/themes/seawaves/single-tournaments.php on line 12
+[07-May-2022 17:57:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=598 in /home/seawavescup/public_html/wp-includes/wp-db.php on line 2162
+[07-May-2022 17:57:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=594 in /home/seawavescup/public_html/wp-includes/wp-db.php on line 2162
+[07-May-2022 17:57:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=618 in /home/seawavescup/public_html/wp-includes/wp-db.php on line 2162
+[07-May-2022 17:57:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=595 in /home/seawavescup/public_html/wp-includes/wp-db.php on line 2162
